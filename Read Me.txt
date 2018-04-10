@@ -1,0 +1,15 @@
+You need to signup for google cloud platform and enable google drive api and google people and google plus api.
+You may need to enable to enable more apis.
+
+After setting up and enabling your api on google ... download the secret.json and 
+copy contents to 'client_secret.json' in root directory of installation.
+
+Now you are good to go. 
+
+Few More things:
+1. Increase max execution time in php.ini
+2. create a script which checks for files in files folder and delete files after some decay time. Because right now
+the implementation of this script is not too good in deleting the files after completion of task. You also need to add that
+script to cron, so that it will run automatically.
+
+I will provide this script before 7 April, 2018 positively on faltutech.club
